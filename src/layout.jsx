@@ -1,22 +1,19 @@
 import { Outlet } from "react-router-dom";
-import TopBar from "./comanComponent/TopHeader";
 import NavBar from "./comanComponent/Topnav";
 
 
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FaFacebook, FaTwitter, FaYoutube } from 'react-icons/fa';
-// import { IoLogoGooglePlay, IoLogoApple } from 'react-icons/io';  // Corrected import
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const Layout=()=>{
     return(
         <>
-        <TopBar/>
         <NavBar />
         
-        {/* <About/> */}
+        
         <Outlet />
 
 
