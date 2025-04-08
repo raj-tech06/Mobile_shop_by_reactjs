@@ -7,6 +7,8 @@ import Home from "./pages/Home";
 import About from './pages/about';
 import Mobile from './pages/mobile';
 import AddCartPage from './pages/AddcardPage';
+import AccessoriesPage from './pages/Accessories';
+import CustomerServicePage from './pages/CustomerService';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
           <Route path="home" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="mobile" element={<Mobile />} />
+          <Route path='accessories' element={<AccessoriesPage />}/>.
+          <Route path='customer-service' element={<CustomerServicePage />}/>
           <Route path='cart' element={<AddCartPage />}/>
           </Route>
         </Routes>

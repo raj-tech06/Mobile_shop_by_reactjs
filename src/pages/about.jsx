@@ -1,100 +1,73 @@
-import React from 'react';
-import { Container, Row, Col, Card, Button } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { motion } from "framer-motion";
 
-const About = () => {
+function AboutPage() {
   return (
-    <div>
-      {/* About Section */}
-      <Container className="my-5">
-        <Row className="text-center">
-          <Col>
-            <h1>About Us</h1>
-            <p>
-              We are a leading company in tech innovation, providing quality products and services to
-              customers worldwide. Our mission is to empower people with cutting-edge technology that
-              improves their everyday lives.
-            </p>
-          </Col>
-        </Row>
-      </Container>
+    <div className="about-container">
+      {/* Hero Section */}
+      <motion.div
+        initial={{ opacity: 0, y: -30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        className="about-hero"
+      >
+        <h1 className="about-title">About Our Company</h1>
+        <p className="about-subtext">
+          We are driven by innovation, fueled by passion, and committed to excellence.
+        </p>
+      </motion.div>
 
-      {/* Mission Section */}
-      <Container>
-        <Row className="my-5">
-          <Col>
-            <h2>Our Mission</h2>
-            <p>
-              Our mission is to create products that seamlessly blend design with functionality, making
-              technology more accessible and enjoyable for everyone. We strive to foster a culture of
-              innovation, collaboration, and excellence.
-            </p>
-          </Col>
-        </Row>
-      </Container>
+      {/* Our Mission */}
+      <motion.section
+        initial={{ opacity: 0, x: -50 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.6 }}
+        viewport={{ once: true }}
+        className="about-section"
+      >
+        <h2 className="about-heading">Our Mission</h2>
+        <p className="about-text">
+          To deliver high-quality products that bring real value to our customers. Our mission is to simplify technology and empower people.
+        </p>
+      </motion.section>
 
-      {/* Team Section */}
-      <Container>
-        <Row className="my-5">
-          <Col>
-            <h2>Meet the Team</h2>
-            <p>Our team consists of passionate and talented individuals dedicated to delivering the best for our customers.</p>
-          </Col>
-        </Row>
-        <Row>
-          <Col md={4} className="mb-4">
-            <Card>
-              <Card.Img variant="top" src="https://via.placeholder.com/150" />
-              <Card.Body>
-                <Card.Title>John Doe</Card.Title>
-                <Card.Text>
-                  John is our CEO, a visionary leader with over 20 years of experience in the tech industry.
-                </Card.Text>
-                <Button variant="primary">Contact</Button>
-              </Card.Body>
-            </Card>
-          </Col>
+      {/* Our History */}
+      <motion.section
+        initial={{ opacity: 0, x: 50 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.6 }}
+        viewport={{ once: true }}
+        className="about-section"
+      >
+        <h2 className="about-heading">Our History</h2>
+        <p className="about-text">
+          Founded in 2010, we started as a small team with big dreams. Today, we serve clients across the globe and continue to grow.
+        </p>
+      </motion.section>
 
-          <Col md={4} className="mb-4">
-            <Card>
-              <Card.Img variant="top" src="https://via.placeholder.com/150" />
-              <Card.Body>
-                <Card.Title>Jane Smith</Card.Title>
-                <Card.Text>
-                  Jane is our Lead Developer, responsible for turning ideas into cutting-edge software products.
-                </Card.Text>
-                <Button variant="primary">Contact</Button>
-              </Card.Body>
-            </Card>
-          </Col>
-
-          <Col md={4} className="mb-4">
-            <Card>
-              <Card.Img variant="top" src="https://via.placeholder.com/150" />
-              <Card.Body>
-                <Card.Title>Michael Brown</Card.Title>
-                <Card.Text>
-                  Michael is our Chief Designer, ensuring that all our products are both functional and beautiful.
-                </Card.Text>
-                <Button variant="primary">Contact</Button>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
-      </Container>
-
-      {/* Contact Section */}
-      <Container className="my-5">
-        <Row>
-          <Col>
-            <h2>Contact Us</h2>
-            <p>If you have any questions or would like to know more, feel free to reach out!</p>
-            <Button variant="success" href="mailto:info@company.com">Contact Us</Button>
-          </Col>
-        </Row>
-      </Container>
+      {/* Our Team */}
+      <motion.section
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.6 }}
+        viewport={{ once: true }}
+        className="about-section"
+      >
+        <h2 className="about-heading">Our Team</h2>
+        <div className="about-team">
+          {[{ name: "Aarav Mehta", role: "CEO" },{ name: "Priya Sharma", role: "CTO" },{ name: "Ravi Desai", role: "Lead Developer" }].map((member, index) => (
+            <motion.div
+              key={index}
+              className="team-card"
+              whileHover={{ scale: 1.05 }}
+            >
+              <div className="team-avatar" />
+              <h3 className="team-name">{member.name}</h3>
+              <p className="team-role">{member.role}</p>
+            </motion.div>
+          ))}
+        </div>
+      </motion.section>
     </div>
   );
-};
-
-export default About;
+}
+export default AboutPage;

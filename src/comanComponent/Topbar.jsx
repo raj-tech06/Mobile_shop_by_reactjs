@@ -6,10 +6,10 @@ import { IoIosLogOut } from 'react-icons/io';
 import { LuScanSearch } from 'react-icons/lu';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
-import { useCart } from '../pages/CartContext'; // Add this line to access cart
+import { useCart } from '../pages/CartContext'; 
 
 const TopBar = () => {
-  const { cartItems } = useCart(); // Use cart context
+  const { cartItems } = useCart(); 
 
   return (
     <div id="top-bar-wrapper" className="bg-dark text-white py-2">
