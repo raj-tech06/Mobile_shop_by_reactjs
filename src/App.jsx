@@ -25,6 +25,7 @@ function App() {
           <Route path='accessories' element={<AccessoriesPage />}/>.
           <Route path='customer-service' element={<CustomerServicePage />}/>
           <Route path='cart' element={<AddCartPage />}/>
+          
           </Route>
         </Routes>
       </CartProvider>

@@ -1,8 +1,8 @@
 import React from 'react';
 import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap';
-import { FaShoppingCart, FaRegHeart } from 'react-icons/fa';
+import { FaShoppingCart, FaRegHeart, FaUserPlus } from 'react-icons/fa';
 import { RiAdminFill } from 'react-icons/ri';
-import { IoIosLogOut } from 'react-icons/io';
+import { IoIosLogOut, IoIosLogIn } from 'react-icons/io';
 import { LuScanSearch } from 'react-icons/lu';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
@@ -41,10 +41,13 @@ const TopBar = () => {
           <Link to="/cart" className="text-white mr-3">
             <FaRegHeart />
           </Link>
-          <Link to="/admin" className="text-white mr-3">
-            <RiAdminFill />
+       
+          <Link to="/login" className="text-white mr-3">
+            Login<IoIosLogIn />
           </Link>
-          <Link to="/login" className="text-white mr-3">Login</Link>
+          <Link to="/register" className="text-white mr-3">
+            <FaUserPlus />
+          </Link>
           <Link to="/cart" className="text-white">
             Logout <IoIosLogOut />
           </Link>
