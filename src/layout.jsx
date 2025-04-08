@@ -1,27 +1,24 @@
 import { Outlet } from "react-router-dom";
 import NavBar from "./comanComponent/Topnav";
-
-
-import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FaFacebook, FaTwitter, FaYoutube } from 'react-icons/fa';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+import TopBar from "./comanComponent/Topbar";
 
 
 const Layout=()=>{
     return(
         <>
+        <TopBar />
         <NavBar />
         
         
         <Outlet />
 
-
-
     <footer className="bg-dark text-white py-5">
       <Container>
         <Row>
-          {/* Product Categories Section */}
           <Col md={3} sm={6}>
             <h5>Product Categories</h5>
             <ul className="list-unstyled">
@@ -37,7 +34,6 @@ const Layout=()=>{
             </ul>
           </Col>
 
-          {/* Site Info Section */}
           <Col md={3} sm={6}>
             <h5>Site Info</h5>
             <ul className="list-unstyled">
@@ -56,7 +52,6 @@ const Layout=()=>{
             </ul>
           </Col>
 
-          {/* Policies Section */}
           <Col md={3} sm={6}>
             <h5>Policies</h5>
             <ul className="list-unstyled">
@@ -72,13 +67,9 @@ const Layout=()=>{
             </ul>
           </Col>
 
-          {/* Mobile App & Social Media Section */}
           <Col md={3} sm={6}>
             <h5>Experience Reliance Digital App</h5>
-            {/* <div className="d-flex mb-3">
-              <IoLogoGooglePlay size={30} className="mr-3" />
-              <IoLogoApple size={30} />
-            </div> */}
+         
 
             <h5>Follow Us</h5>
             <div className="d-flex">
@@ -101,7 +92,6 @@ const Layout=()=>{
           </Col>
         </Row>
 
-        {/* Disclaimer Section */}
         <Row>
           <Col className="text-center mt-4">
             <p>
@@ -111,11 +101,6 @@ const Layout=()=>{
         </Row>
       </Container>
     </footer>
-
-
-
-
-
         </>
     )
 }

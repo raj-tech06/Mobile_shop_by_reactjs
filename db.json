@@ -1,510 +1,277 @@
-
-{
-  "mobiles": [
-  {
-    "brand": "Samsung",
-    "name": "Samsung Galaxy S23",
-    "price": "₹74,999",
-    "img": "https://m.media-amazon.com/images/I/81jcfoh5KXL._SY879_.jpg"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Samsung Galaxy A54",
-    "price": "₹35,999",
-    "img": "https://m.media-amazon.com/images/I/81w1joJY9sL._SY879_.jpg"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Samsung Galaxy M54",
-    "price": "₹29,999",
-    "img": "https://m.media-amazon.com/images/I/81bW6f06b3L._SY879_.jpg"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Samsung Galaxy Z Fold 5",
-    "price": "₹1,84,999",
-    "img": "https://m.media-amazon.com/images/I/91vwfY8LfzL._SY879_.jpg"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Samsung Galaxy Z Flip 5",
-    "price": "₹1,09,999",
-    "img": "https://m.media-amazon.com/images/I/91XY4gBbGmL._SY879_.jpg"
-  },
-  {
-    "brand": "Nokia",
-    "name": "Nokia G60 5G",
-    "price": "₹19,999",
-    "img": "https://m.media-amazon.com/images/I/91r6jD8G+vL._SY879_.jpg"
-  },
-  {
-    "brand": "Nokia",
-    "name": "Nokia X100 5G",
-    "price": "₹18,999",
-    "img": "https://m.media-amazon.com/images/I/81dKbG1MYfL._SY879_.jpg"
-  },
-  {
-    "brand": "Nokia",
-    "name": "Nokia C30",
-    "price": "₹7,999",
-    "img": "https://m.media-amazon.com/images/I/81cq4yQgS3L._SY879_.jpg"
-  },
-  {
-    "brand": "Nokia",
-    "name": "Nokia 5.4",
-    "price": "₹17,000",
-    "img": "https://m.media-amazon.com/images/I/71OYj0cBExL._SY879_.jpg"
-  },
-  {
-    "brand": "Nokia",
-    "name": "Nokia 3.4",
-    "price": "₹13,499",
-    "img": "https://m.media-amazon.com/images/I/81D9g3ytz4L._SY879_.jpg"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Xiaomi Mi 13 Pro",
-    "price": "₹74,999",
-    "img": "https://m.media-amazon.com/images/I/91jcfoh5KXL._SY879_.jpg"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Xiaomi Redmi Note 12 Pro",
-    "price": "₹16,999",
-    "img": "https://m.media-amazon.com/images/I/81Fb6goTxjL._SY879_.jpg"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Xiaomi Redmi 12C",
-    "price": "₹7,499",
-    "img": "https://m.media-amazon.com/images/I/71fydq3-3DL._SY879_.jpg"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Xiaomi Mi 11X Pro",
-    "price": "₹23,999",
-    "img": "https://m.media-amazon.com/images/I/91t4t5i3LtL._SY879_.jpg"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Xiaomi Poco X5 Pro",
-    "price": "₹19,999",
-    "img": "https://m.media-amazon.com/images/I/91sTzA6qS4L._SY879_.jpg"
-  },
-  {
-    "brand": "Realme",
-    "name": "Realme GT 2 Pro",
-    "price": "₹39,999",
-    "img": "https://m.media-amazon.com/images/I/71-p-oePv9L._SY879_.jpg"
-  },
-  {
-    "brand": "Realme",
-    "name": "Realme Narzo 50",
-    "price": "₹11,499",
-    "img": "https://m.media-amazon.com/images/I/71vJSdHdehL._SY879_.jpg"
-  },
-  {
-    "brand": "Realme",
-    "name": "Realme 9 Pro Plus",
-    "price": "₹19,999",
-    "img": "https://m.media-amazon.com/images/I/91aG8d79JlL._SY879_.jpg"
-  },
-  {
-    "brand": "Realme",
-    "name": "Realme GT Master Edition",
-    "price": "₹25,999",
-    "img": "https://m.media-amazon.com/images/I/71dZ+W4bQ1L._SY879_.jpg"
-  },
-  {
-    "brand": "Realme",
-    "name": "Realme C25Y",
-    "price": "₹10,999",
-    "img": "https://m.media-amazon.com/images/I/71eOWx2vT1L._SY879_.jpg"
-  },
-  {
-    "brand": "Oppo",
-    "name": "Oppo F19 Pro",
-    "price": "₹18,990",
-    "img": "https://m.media-amazon.com/images/I/81jeGrvH9JL._SY879_.jpg"
-  },
-  {
-    "brand": "Oppo",
-    "name": "Oppo A54",
-    "price": "₹13,490",
-    "img": "https://m.media-amazon.com/images/I/81XMxJ24gzL._SY879_.jpg"
-  },
-  {
-    "brand": "Oppo",
-    "name": "Oppo Reno 6 5G",
-    "price": "₹29,990",
-    "img": "https://m.media-amazon.com/images/I/81r3p6fHkML._SY879_.jpg"
-  },
-  {
-    "brand": "Oppo",
-    "name": "Oppo Find X5 Pro",
-    "price": "₹66,990",
-    "img": "https://m.media-amazon.com/images/I/81iS9VmU8LL._SY879_.jpg"
-  },
-  {
-    "brand": "Oppo",
-    "name": "Oppo A16",
-    "price": "₹8,990",
-    "img": "https://m.media-amazon.com/images/I/81dX9JkHaPL._SY879_.jpg"
-  },
-  {
-    "brand": "Vivo",
-    "name": "Vivo V27 Pro",
-    "price": "₹36,999",
-    "img": "https://m.media-amazon.com/images/I/91BHzsX64RL._SY879_.jpg"
-  },
-  {
-    "brand": "Vivo",
-    "name": "Vivo Y100",
-    "price": "₹22,999",
-    "img": "https://m.media-amazon.com/images/I/91nxZlN5W2L._SY879_.jpg"
-  },
-  {
-    "brand": "Vivo",
-    "name": "Vivo V23 5G",
-    "price": "₹27,999",
-    "img": "https://m.media-amazon.com/images/I/91BCN1-XYnL._SY879_.jpg"
-  },
-  {
-    "brand": "Vivo",
-    "name": "Vivo Y21e",
-    "price": "₹12,990",
-    "img": "https://m.media-amazon.com/images/I/91OnTAE6QLL._SY879_.jpg"
-  },
-  {
-    "brand": "Vivo",
-    "name": "Vivo X90 Pro",
-    "price": "₹84,999",
-    "img": "https://m.media-amazon.com/images/I/91NteHk91HL._SY879_.jpg"
-  },
-  {
-    "brand": "Motorola",
-    "name": "Motorola Edge 40",
-    "price": "₹39,999",
-    "img": "https://m.media-amazon.com/images/I/91vc-t9ggQL._SY879_.jpg"
-  },
-  {
-    "brand": "Motorola",
-    "name": "Motorola Moto G72",
-    "price": "₹18,999",
-    "img": "https://m.media-amazon.com/images/I/91FwWckVVpL._SY879_.jpg"
-  },
-  {
-    "brand": "Motorola",
-    "name": "Motorola Edge 30 Pro",
-    "price": "₹49,999",
-    "img": "https://m.media-amazon.com/images/I/91YxymtHHFL._SY879_.jpg"
-  },
-  {
-    "brand": "Motorola",
-    "name": "Motorola Moto G60",
-    "price": "₹17,000",
-    "img": "https://m.media-amazon.com/images/I/71NXQ51aTzL._SY879_.jpg"
-  },
-  {
-    "brand": "Motorola",
-    "name": "Motorola Moto E40",
-    "price": "₹10,999",
-    "img": "https://m.media-amazon.com/images/I/71t5gCpEwBL._SY879_.jpg"
-  },
-  {
-    "brand": "OnePlus",
-    "name": "OnePlus 11 5G",
-    "price": "₹54,999",
-    "img": "https://m.media-amazon.com/images/I/91usZQJ4tKL._SY879_.jpg"
-  },
-  {
-    "brand": "OnePlus",
-    "name": "OnePlus Nord 2T",
-    "price": "₹28,999",
-    "img": "https://m.media-amazon.com/images/I/81R8iXyRQLL._SY879_.jpg"
-  },
-  {
-    "brand": "OnePlus",
-    "name": "OnePlus 9 Pro",
-    "price": "₹64,999",
-    "img": "https://m.media-amazon.com/images/I/91to1yXw-ML._SY879_.jpg"
-  },
-  {
-    "brand": "OnePlus",
-    "name": "OnePlus Nord CE 3 5G",
-    "price": "₹26,999",
-    "img": "https://m.media-amazon.com/images/I/91MxtTYLr4L._SY879_.jpg"
-  },
-  {
-    "brand": "OnePlus",
-    "name": "OnePlus 10R 5G",
-    "price": "₹32,999",
-    "img": "https://m.media-amazon.com/images/I/91UgY1f0txL._SY879_.jpg"
-  },
-  {
-    "brand": "Apple",
-    "name": "Apple iPhone 14 Pro",
-    "price": "₹1,29,999",
-    "img": "https://m.media-amazon.com/images/I/91tvbiT-1cL._SY879_.jpg"
-  },
-  {
-    "brand": "Apple",
-    "name": "Apple iPhone 13",
-    "price": "₹69,999",
-    "img": "https://m.media-amazon.com/images/I/81VxlZTtfJL._SY879_.jpg"
-  },
-  {
-    "brand": "Apple",
-    "name": "Apple iPhone 12",
-    "price": "₹55,999",
-    "img": "https://m.media-amazon.com/images/I/81A5bYVRf5L._SY879_.jpg"
-  },
-  {
-    "brand": "Apple",
-    "name": "Apple iPhone SE 2022",
-    "price": "₹43,900",
-    "img": "https://m.media-amazon.com/images/I/81Wq7LQGjoL._SY879_.jpg"
-  },
-  {
-    "brand": "Apple",
-    "name": "Apple iPhone 11",
-    "price": "₹49,999",
-    "img": "https://m.media-amazon.com/images/I/61dpVln6nLL._SY879_.jpg"
-  },
-  {
-    "brand": "Sony",
-    "name": "Sony Xperia 1 IV",
-    "price": "₹1,29,999",
-    "img": "https://m.media-amazon.com/images/I/81H5h9z5ECL._SY879_.jpg"
-  },
-  {
-    "brand": "Sony",
-    "name": "Sony Xperia 5 IV",
-    "price": "₹99,999",
-    "img": "https://m.media-amazon.com/images/I/81t5wDb2hQL._SY879_.jpg"
-  },
-  {
-    "brand": "Sony",
-    "name": "Sony Xperia 10 IV",
-    "price": "₹44,999",
-    "img": "https://m.media-amazon.com/images/I/81yP9czqlqL._SY879_.jpg"
-  },
-  {
-    "brand": "Sony",
-    "name": "Sony Xperia 1 III",
-    "price": "₹1,00,000",
-    "img": "https://m.media-amazon.com/images/I/81fJ8fA2gLL._SY879_.jpg"
-  },
-  {
-    "brand": "Sony",
-    "name": "Sony Xperia XZ2 Premium",
-    "price": "₹55,000",
-    "img": "https://m.media-amazon.com/images/I/81AhJ5EGKJL._SY879_.jpg"
-  },
-  {
-    "brand": "Asus",
-    "name": "Asus ROG Phone 6",
-    "price": "₹71,999",
-    "img": "https://m.media-amazon.com/images/I/91HrYzD0iQL._SY879_.jpg"
-  },
-  {
-    "brand": "Asus",
-    "name": "Asus Zenfone 9",
-    "price": "₹39,999",
-    "img": "https://m.media-amazon.com/images/I/71g6p6DFDVL._SY879_.jpg"
-  },
-  {
-    "brand": "Asus",
-    "name": "Asus ROG Phone 5",
-    "price": "₹49,999",
-    "img": "https://m.media-amazon.com/images/I/81ZY6qU5LoL._SY879_.jpg"
-  },
-  {
-    "brand": "Asus",
-    "name": "Asus Zenfone 8",
-    "price": "₹34,999",
-    "img": "https://m.media-amazon.com/images/I/91LvLZKk8DL._SY879_.jpg"
-  },
-  {
-    "brand": "Asus",
-    "name": "Asus VivoPhone V23 5G",
-    "price": "₹29,999",
-    "img": "https://m.media-amazon.com/images/I/91rd4eHsbTL._SY879_.jpg"
-  },
-  {
-    "brand": "LG",
-    "name": "LG V60 ThinQ 5G",
-    "price": "₹59,999",
-    "img": "https://m.media-amazon.com/images/I/81gde9XaS5L._SY879_.jpg"
-  },
-  {
-    "brand": "LG",
-    "name": "LG G8X ThinQ",
-    "price": "₹39,999",
-    "img": "https://m.media-amazon.com/images/I/81Zal45xJ6L._SY879_.jpg"
-  },
-  {
-    "brand": "LG",
-    "name": "LG Velvet 5G",
-    "price": "₹32,000",
-    "img": "https://m.media-amazon.com/images/I/91W8ssXxIfL._SY879_.jpg"
-  },
-  {
-    "brand": "LG",
-    "name": "LG G7 ThinQ",
-    "price": "₹27,500",
-    "img": "https://m.media-amazon.com/images/I/81XJr-A0KqL._SY879_.jpg"
-  },
-  {
-    "brand": "LG",
-    "name": "LG K92 5G",
-    "price": "₹25,990",
-    "img": "https://m.media-amazon.com/images/I/91tbjj7bdML._SY879_.jpg"
-  },
-  {
-    "brand": "Realme",
-    "name": "Realme 11 Pro+ 5G",
-    "price": "₹29,999",
-    "img": "https://m.media-amazon.com/images/I/71EzQLm5kkL._SY879_.jpg"
-  },
-  {
-    "brand": "Realme",
-    "name": "Realme 11 Pro 5G",
-    "price": "₹24,999",
-    "img": "https://m.media-amazon.com/images/I/71xX6BfoFwL._SY879_.jpg"
-  },
-  {
-    "brand": "Oppo",
-    "name": "Oppo F23 5G",
-    "price": "₹22,999",
-    "img": "https://m.media-amazon.com/images/I/71vsES9uijL._SY879_.jpg"
-  },
-  {
-    "brand": "Oppo",
-    "name": "Oppo A78 5G",
-    "price": "₹18,999",
-    "img": "https://m.media-amazon.com/images/I/71J-JgA5XLL._SY879_.jpg"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Samsung Galaxy A54 5G",
-    "price": "₹34,999",
-    "img": "https://m.media-amazon.com/images/I/81X5v4hQFiL._SY879_.jpg"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Samsung Galaxy Z Fold 5 5G",
-    "price": "₹1,84,999",
-    "img": "https://m.media-amazon.com/images/I/91VzbyIRN1L._SY879_.jpg"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Xiaomi 13 5G",
-    "price": "₹74,999",
-    "img": "https://m.media-amazon.com/images/I/81Gjljv6AfL._SY879_.jpg"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Xiaomi Redmi Note 13 Pro",
-    "price": "₹19,999",
-    "img": "https://m.media-amazon.com/images/I/81gcm9fpF8L._SY879_.jpg"
-  },
-  {
-    "brand": "Vivo",
-    "name": "Vivo V27e 5G",
-    "price": "₹24,999",
-    "img": "https://m.media-amazon.com/images/I/91ZAdzDdG0L._SY879_.jpg"
-  },
-  {
-    "brand": "Vivo",
-    "name": "Vivo Y100 5G",
-    "price": "₹22,999",
-    "img": "https://m.media-amazon.com/images/I/91kzjkCgklL._SY879_.jpg"
-  },
-  {
-    "brand": "Motorola",
-    "name": "Motorola Edge 40 Pro 5G",
-    "price": "₹59,999",
-    "img": "https://m.media-amazon.com/images/I/91A6XYeh6mL._SY879_.jpg"
-  },
-  {
-    "brand": "Motorola",
-    "name": "Motorola Moto Edge 40",
-    "price": "₹34,999",
-    "img": "https://m.media-amazon.com/images/I/91lXnq+S2mL._SY879_.jpg"
-  },
-  {
-    "brand": "OnePlus",
-    "name": "OnePlus 11R 5G",
-    "price": "₹39,999",
-    "img": "https://m.media-amazon.com/images/I/91dKHSP8HJL._SY879_.jpg"
-  },
-  {
-    "brand": "OnePlus",
-    "name": "OnePlus Nord CE 3 Lite 5G",
-    "price": "₹19,999",
-    "img": "https://m.media-amazon.com/images/I/91cqld7f5qL._SY879_.jpg"
-  },
-  {
-    "brand": "Apple",
-    "name": "Apple iPhone 15 5G",
-    "price": "₹79,999",
-    "img": "https://m.media-amazon.com/images/I/91rw6tw8a4L._SY879_.jpg"
-  },
-  {
-    "brand": "Apple",
-    "name": "Apple iPhone 15 Plus 5G",
-    "price": "₹89,999",
-    "img": "https://m.media-amazon.com/images/I/91pO2AKk0kL._SY879_.jpg"
-  },
-  {
-    "brand": "Apple",
-    "name": "Apple iPhone 14 5G",
-    "price": "₹79,999",
-    "img": "https://m.media-amazon.com/images/I/91LtgtO3GLL._SY879_.jpg"
-  },
-  {
-    "brand": "Apple",
-    "name": "Apple iPhone 14 Pro Max 5G",
-    "price": "₹1,39,999",
-    "img": "https://m.media-amazon.com/images/I/91BgrNh1fvL._SY879_.jpg"
-  },
-  {
-    "brand": "Huawei",
-    "name": "Huawei Mate 50 Pro 5G",
-    "price": "₹1,09,999",
-    "img": "https://m.media-amazon.com/images/I/81C2lg7XKnL._SY879_.jpg"
-  },
-  {
-    "brand": "Huawei",
-    "name": "Huawei P50 Pro 5G",
-    "price": "₹94,999",
-    "img": "https://m.media-amazon.com/images/I/91tV4z3tWcL._SY879_.jpg"
-  },
-  {
-    "brand": "Huawei",
-    "name": "Huawei Nova 10 Pro 5G",
-    "price": "₹39,999",
-    "img": "https://m.media-amazon.com/images/I/91Uq2LOoTlL._SY879_.jpg"
-  },
-  {
-    "brand": "Huawei",
-    "name": "Huawei Mate Xs 2 5G",
-    "price": "₹1,69,999",
-    "img": "https://m.media-amazon.com/images/I/91m9fV5dC6L._SY879_.jpg"
-  },
-  {
-    "brand": "Huawei",
-    "name": "Huawei Nova 10 Pro 5G",
-    "price": "₹39,999",
-    "img": "https://m.media-amazon.com/images/I/91Uq2LOoTlL._SY879_.jpg"
-  },
-  {
-    "brand": "Huawei",
-    "name": "Huawei Mate Xs 2 5G",
-    "price": "₹1,69,999",
-    "img": "https://m.media-amazon.com/images/I/91m9fV5dC6L._SY879_.jpg"
-  }
-  
-]
-}
+// {
+//   "mobiles": [
+//     {
+//       "id": 1,
+//       "brand": "Samsung",
+//       "name": "Samsung Galaxy S23",
+//       "price": "₹74,999",
+//       "img": "https://m.media-amazon.com/images/I/719zApN1mhL._SL1500_.jpg"
+//     },
+//     {
+//       "id": 2,
+//       "brand": "Samsung",
+//       "name": "Samsung Galaxy A54",
+//       "price": "₹35,999",
+//       "img": "https://m.media-amazon.com/images/I/71DjLEgCUYL._SL1500_.jpg"
+//     },
+//     {
+//       "id": 3,
+//       "brand": "Samsung",
+//       "name": "Samsung Galaxy S25 Ultra",
+//       "price": "₹1,39,999",
+//       "img": "https://m.media-amazon.com/images/I/71rs4Aer71L._SL1500_.jpg"
+//     },
+//     {
+//       "id": 4,
+//       "brand": "Samsung",
+//       "name": "Samsung Galaxy Z Fold 5",
+//       "price": "₹1,84,999",
+//       "img": "https://m.media-amazon.com/images/I/61fbbH-IfSL._SL1500_.jpg"
+//     },
+//     {
+//       "id": 5,
+//       "brand": "Xiaomi",
+//       "name": "Xiaomi Mi 13 Pro",
+//       "price": "₹74,999",
+//       "img": "https://m.media-amazon.com/images/I/71nrf4zgq5L._SL1500_.jpg"
+//     },
+//     {
+//       "id": 6,
+//       "brand": "Xiaomi",
+//       "name": "Xiaomi Redmi Note 12 Pro",
+//       "price": "₹16,999",
+//       "img": "https://m.media-amazon.com/images/I/71xMba-NW-L._SL1500_.jpg"
+//     },
+//     {
+//       "id": 7,
+//       "brand": "Xiaomi",
+//       "name": "Xiaomi Redmi 12C",
+//       "price": "₹7,499",
+//       "img": "https://m.media-amazon.com/images/I/81Q9jpYOFdL._SL1500_.jpg"
+//     },
+//     {
+//       "id": 8,
+//       "brand": "Xiaomi",
+//       "name": "Xiaomi Mi 11X Pro",
+//       "price": "₹23,999",
+//       "img": "https://m.media-amazon.com/images/I/61svSnhy8TS._SL1500_.jpg"
+//     },
+//     {
+//       "id": 9,
+//       "brand": "Xiaomi",
+//       "name": "POCO X6 Neo 5G ",
+//       "price": "₹15,999",
+//       "img": "https://m.media-amazon.com/images/I/61Ml1nEENhL._SL1500_.jpg"
+//     },
+//     {
+//       "id": 10,
+//       "brand": "Realme",
+//       "name": "Realme GT 2 Pro",
+//       "price": "₹39,999",
+//       "img": "https://m.media-amazon.com/images/I/811oKUF9GVL._SL1500_.jpg"
+//     },
+//     {
+//       "id": 11,
+//       "brand": "Realme",
+//       "name": "Realme Narzo 50",
+//       "price": "₹11,499",
+//       "img": "https://m.media-amazon.com/images/I/91Bh6Tr88NL._SL1500_.jpg"
+//     },
+//     {
+//       "id": 12,
+//       "brand": "Realme",
+//       "name": "Realme 9 Pro Plus",
+//       "price": "₹19,999",
+//       "img": "https://m.media-amazon.com/images/I/71j1y-M6vTL._SL1500_.jpg"
+//     },
+//     {
+//       "id": 13,
+//       "brand": "Realme",
+//       "name": "Realme GT Master Edition",
+//       "price": "₹25,999",
+//       "img": "https://m.media-amazon.com/images/I/61HyiMlCuTL._SL1500_.jpg"
+//     },
+//     {
+//       "id": 14,
+//       "brand": "Realme",
+//       "name": "Realme C25Y",
+//       "price": "₹10,999",
+//       "img": "https://m.media-amazon.com/images/I/41+r5uIAAAL.jpg"
+//     },
+//     {
+//       "id": 15,
+//       "brand": "Oppo",
+//       "name": "Oppo F21s Pro",
+//       "price": "₹18,990",
+//       "img": "https://m.media-amazon.com/images/I/71e-HtTY61L._SL1500_.jpg"
+//     },
+//     {
+//       "id": 16,
+//       "brand": "Oppo",
+//       "name": "Oppo A54",
+//       "price": "₹13,490",
+//       "img": "https://m.media-amazon.com/images/I/51oDDYRMifL._SL1280_.jpg"
+//     },
+//     {
+//       "id": 17,
+//       "brand": "Oppo",
+//       "name": "OPPO F27 Pro+ 5G",
+//       "price": "₹27,990",
+//       "img": "https://m.media-amazon.com/images/I/91wPh6RMcdL._SL1500_.jpg"
+//     },
+//     {
+//       "id": 18,
+//       "brand": "Oppo",
+//       "name": "OPPO A3 5G",
+//       "price": "₹16,990",
+//       "img": "https://m.media-amazon.com/images/I/81Xl10tx7hL._SL1500_.jpg"
+//     },
+//     {
+//       "id": 19,
+//       "brand": "Oppo",
+//       "name": "Oppo K12x 5G",
+//       "price": "₹12,990",
+//       "img": "https://m.media-amazon.com/images/I/41o5F9LMwtL.jpg"
+//     },
+//     {
+//       "id": 20,
+//       "brand": "Oppo",
+//       "name": "Oppo Reno 12 5G",
+//       "price": "₹36,999",
+//       "img": "https://m.media-amazon.com/images/I/51opYSjGFmL._SL1280_.jpg"
+//     },
+//     {
+//       "id": 21,
+//       "brand": "Vivo",
+//       "name": "Vivo Y200 5G Mobile",
+//       "price": "₹18,999",
+//       "img": "https://m.media-amazon.com/images/I/51dgtXFNY4L._SL1200_.jpg"
+//     },
+//     {
+//       "id": 22,
+//       "brand": "Vivo",
+//       "name": "Vivo V50 5G (Rose Red, 8GB RAM, 256GB Storage)",
+//       "price": "₹37,999",
+//       "img": "https://m.media-amazon.com/images/I/71m7OmKyA5L._SL1500_.jpg"
+//     },
+//     {
+//       "id": 23,
+//       "brand": "Vivo",
+//       "name": "Vivo Y39 5G",
+//       "price": "₹18,990",
+//       "img": "https://m.media-amazon.com/images/I/41zgqg51M9L._SY300_SX300_.jpg"
+//     },
+//     {
+//       "id": 24,
+//       "brand": "Vivo",
+//       "name": "Vivo V50 5G",
+//       "price": "₹36,999",
+//       "img": "https://m.media-amazon.com/images/I/71lMNjd-gcL._SL1500_.jpg"
+//     },
+//     {
+//       "id": 25,
+//       "brand": "Motorola",
+//       "name": "Motorola G35 5G ",
+//       "price": "₹10,999",
+//       "img": "https://m.media-amazon.com/images/I/61OCxNjjfuL._SL1000_.jpg"
+//     },
+//     {
+//       "id": 26,
+//       "brand": "Motorola",
+//       "name": "Motorola Edge 50 Fusion 5G",
+//       "price": "₹23,999",
+//       "img": "https://m.media-amazon.com/images/I/71XZP2Hm+5L._SL1500_.jpg"
+//     },
+//     {
+//       "id": 27,
+//       "brand": "Motorola",
+//       "name": "Motorola Edge 50 Pro 5G",
+//       "price": "₹30,999",
+//       "img": "https://m.media-amazon.com/images/I/71lIActLJgL._SL1500_.jpg"
+//     },
+//     {
+//       "id": 28,
+//       "brand": "Motorola",
+//       "name": "Motorola G35 5G ",
+//       "price": "₹10,000",
+//       "img": "https://m.media-amazon.com/images/I/51-4GXjNK8L._SL1000_.jpg"
+//     },
+//     {
+//       "id": 29,
+//       "brand": "Motorola",
+//       "name": "Motorola Moto G85 5G 8GB 128GB, Olive Green, New ",
+//       "price": "₹17,999",
+//       "img": "https://m.media-amazon.com/images/I/51JKBdVfBRL._SL1280_.jpg"
+//     },
+//     {
+//       "id": 30,
+//       "brand": "OnePlus",
+//       "name": "OnePlus Nord 4 5G",
+//       "price": "₹29,999",
+//       "img": "https://m.media-amazon.com/images/I/61NbiB1GU-L._SL1500_.jpg"
+//     },
+//     {
+//       "id": 31,
+//       "brand": "OnePlus",
+//       "name": "OnePlus  13R",
+//       "price": "₹42,999",
+//       "img": "https://m.media-amazon.com/images/I/61muVCIy-uL._SL1500_.jpg"
+//     },
+//     {
+//       "id": 32,
+//       "brand": "OnePlus",
+//       "name": "OnePlus Nord CE4 Lite 5G",
+//       "price": "₹17,999",
+//       "img": "https://m.media-amazon.com/images/I/61Io5-ojWUL._SL1500_.jpg"
+//     },
+//     {
+//       "id": 33,
+//       "brand": "OnePlus",
+//       "name": "OnePlus Nord 4 5G",
+//       "price": "₹29,999",
+//       "img": "https://m.media-amazon.com/images/I/616wnQmPQ-L._SL1500_.jpg"
+//     },
+//     {
+//       "id": 34,
+//       "brand": "OnePlus",
+//       "name": "OnePlus 13R 5G",
+//       "price": "₹42,999",
+//       "img": "https://m.media-amazon.com/images/I/61++T836jiL._SL1500_.jpg"
+//     },
+//     {
+//       "id": 35,
+//       "brand": "Apple",
+//       "name": "Apple  iPhone 15",
+//       "price": "₹69,999",
+//       "img": "https://m.media-amazon.com/images/I/71657TiFeHL._SL1500_.jpg"
+//     },
+//     {
+//       "id": 36,
+//       "brand": "Apple",
+//       "name": "Apple iPhone 16 Pro",
+//       "price": "₹1,12,999",
+//       "img": "https://m.media-amazon.com/images/I/61Ony8rgwEL._SL1500_.jpg"
+//     },
+//     {
+//       "id": 37,
+//       "brand": "Apple",
+//       "name": "Apple iPhone 12",
+//       "price": "₹55,999",
+//       "img": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SL1500_.jpg"
+//     },
+//     {
+//       "id": 38,
+//       "brand": "Apple",
+//       "name": "Apple iPhone 15",
+//       "price": "₹62,900",
+//       "img": "https://m.media-amazon.com/images/I/71v2jVh6nIL._SL1500_.jpg"
+//     },
+//     {
+//       "id": 39,
+//       "brand": "Apple",
+//       "name": "Apple iPhone 11",
+//       "price": "₹49,999",
+//       "img": "https://m.media-amazon.com/images/I/71w3oJ7aWyL._SL1500_.jpg"
+//     }
+//   ]
+// }
