@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom';
 import React, { useEffect, useState } from 'react';
 import { Carousel } from 'react-bootstrap';
 import { message } from 'antd';
@@ -22,6 +22,8 @@ const Home = () => {
 
   return (
     <div className="container my-5">
+              <Link to="/login">Login</Link> or <Link to="/register">Register</Link> to access the dashboard.
+
         <Carousel>
          <Carousel.Item>
            <img className="d-block w-100" src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1684242615/Croma%20Assets/CMS/CAtegory/Mobile%20phone%20-%20C10/16-05-23/Desktop/Main%20Banner/D_main-banner_hat0zq.png?tr=w-2048" alt="First slide" />

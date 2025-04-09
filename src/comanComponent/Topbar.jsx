@@ -5,11 +5,42 @@ import { RiAdminFill } from 'react-icons/ri';
 import { IoIosLogOut, IoIosLogIn } from 'react-icons/io';
 import { LuScanSearch } from 'react-icons/lu';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate} from 'react-router-dom';
 import { useCart } from '../pages/CartContext'; 
+
+
+
+
+
+
+
 
 const TopBar = () => {
   const { cartItems } = useCart(); 
+
+
+
+  const navigate1 = useNavigate(); 
+
+  const handleLogin = () => {
+    console.log('Redirecting to register page');
+    
+    navigate1('/register');
+  };
+
+
+
+// ------------------logout----------
+
+  const navigate = useNavigate();
+
+  const handleLogout = () => {
+    localStorage.removeItem('isAuthenticated');
+    console.log('user logout')
+    alert('Logout successful!!')
+    navigate('About');
+  };
+
 
   return (
     <div id="top-bar-wrapper" className="bg-dark text-white py-2">
@@ -42,13 +73,16 @@ const TopBar = () => {
             <FaRegHeart />
           </Link>
        
-          <Link to="/login" className="text-white mr-3">
+          <Link to="/login" className="text-white mr-3" onClick={handleLogin}>
             Login<IoIosLogIn />
           </Link>
           <Link to="/register" className="text-white mr-3">
             <FaUserPlus />
           </Link>
-          <Link to="/cart" className="text-white">
+          <Link to="/" className="text-white">
+
+          <button onClick={handleLogout}>Logout</button>
+
             Logout <IoIosLogOut />
           </Link>
         </div>

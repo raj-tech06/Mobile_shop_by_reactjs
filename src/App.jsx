@@ -9,6 +9,8 @@ import Mobile from './pages/mobile';
 import AddCartPage from './pages/AddcardPage';
 import AccessoriesPage from './pages/Accessories';
 import CustomerServicePage from './pages/CustomerService';
+import Register from './pages/register';
+import Login from './pages/login';
 
 function App() {
   return (
@@ -25,6 +27,9 @@ function App() {
           <Route path='accessories' element={<AccessoriesPage />}/>.
           <Route path='customer-service' element={<CustomerServicePage />}/>
           <Route path='cart' element={<AddCartPage />}/>
+
+          <Route path="/register" element={<Register />} />
+        <Route path="/login" element={<Login />} />
           
           </Route>
         </Routes>
