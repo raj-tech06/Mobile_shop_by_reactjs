@@ -1,7 +1,6 @@
 import React from 'react';
-import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import { FaShoppingCart, FaRegHeart, FaUserPlus } from 'react-icons/fa';
-import { RiAdminFill } from 'react-icons/ri';
 import { IoIosLogOut, IoIosLogIn } from 'react-icons/io';
 import { LuScanSearch } from 'react-icons/lu';
 import 'bootstrap/dist/css/bootstrap.min.css';

@@ -26,10 +26,9 @@ const Login = () => {
     }
 
     setError('');
-    // Store login state in localStorage
     localStorage.setItem('isAuthenticated', 'true');
     alert('Login successful!');
-    navigate('/Home'); // Redirect to the dashboard after successful login
+    navigate('/Home'); 
   };
 
   return (
