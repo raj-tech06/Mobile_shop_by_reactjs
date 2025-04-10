@@ -1,10 +1,10 @@
-// import { Outlet } from "react-router-dom";
-// import NavBar from "./comanComponent/Topnav";
-// import { Container, Row, Col } from 'react-bootstrap';
-// import { FaFacebook, FaTwitter, FaYoutube } from 'react-icons/fa';
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import { Outlet } from "react-router-dom";
+import NavBar from "./comanComponent/Topnav";
+import { Container, Row, Col } from 'react-bootstrap';
+import { FaFacebook, FaTwitter, FaYoutube } from 'react-icons/fa';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-// import TopBar from "./comanComponent/Topbar";
+import TopBar from "./comanComponent/Topbar";
 
 
 const Layout=()=>{
