@@ -1,10 +1,10 @@
-import { Outlet } from "react-router-dom";
-import NavBar from "./comanComponent/Topnav";
-import { Container, Row, Col } from 'react-bootstrap';
-import { FaFacebook, FaTwitter, FaYoutube } from 'react-icons/fa';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import { Outlet } from "react-router-dom";
+// import NavBar from "./comanComponent/Topnav";
+// import { Container, Row, Col } from 'react-bootstrap';
+// import { FaFacebook, FaTwitter, FaYoutube } from 'react-icons/fa';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
-import TopBar from "./comanComponent/Topbar";
+// import TopBar from "./comanComponent/Topbar";
 
 
 const Layout=()=>{
@@ -13,6 +13,17 @@ const Layout=()=>{
         <TopBar />
         <NavBar />
         
+
+        <div className="App">
+      <h1>Download My CV</h1>
+      <a
+        href="src/assets/epfoo.pdf"
+        download="epfoo.pdf"
+        className="download-button"
+      >
+        Download CV
+      </a>
+    </div>
         
         <Outlet />
 
