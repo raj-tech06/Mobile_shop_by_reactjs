@@ -272,6 +272,159 @@
       "name": "Apple iPhone 11",
       "price": "₹49,999",
       "img": "https://m.media-amazon.com/images/I/71w3oJ7aWyL._SL1500_.jpg"
+    },
+    {
+      "id": 40,
+      "brand": "SoundPro",
+      "name": "Bass Boost Earbuds",
+      "price": "₹999",
+      "img": "https://m.media-amazon.com/images/I/71WPZjbOmRL._SL1500_.jpg"
+    },
+    {
+      "id": 41,
+      "brand": "TuneMax",
+      "name": "Wireless Pods",
+      "price": "₹1,499",
+      "img": "https://m.media-amazon.com/images/I/61UNThaGjYL._SL1500_.jpg"
+    },
+    {
+      "id": 42,
+      "brand": "HyperX",
+      "name": "Gaming Headset",
+      "price": "₹2,199",
+      "img": "https://m.media-amazon.com/images/I/61GywIq-pwL._SL1500_.jpg"
+    },
+    {
+      "id": 43,
+      "brand": "BeatBox",
+      "name": "BeatBox Mini Pods",
+      "price": "₹1,199",
+      "img": "https://m.media-amazon.com/images/I/41l2hPQgdfL._SL1200_.jpg"
+    },
+    {
+      "id": 44,
+      "brand": "BeatBox",
+      "name": "BeatBox Bass Buds",
+      "price": "₹1,699",
+      "img": "https://m.media-amazon.com/images/I/719xn0KawFL._SL1500_.jpg"
+    },
+    {
+      "id": 45,
+      "brand": "BeatBox",
+      "name": "BeatBox Air X",
+      "price": "₹2,099",
+      "img": "https://m.media-amazon.com/images/I/61duYQnGVNL._SL1500_.jpg"
+    },
+    
+    {
+      "id": 46,
+      "brand": "AudioBlast",
+      "name": "AudioBlast StormPods",
+      "price": "₹1,299",
+      "img": "https://m.media-amazon.com/images/I/61282NXHBkL._SL1500_.jpg"
+    },
+    {
+      "id": 47,
+      "brand": "AudioBlast",
+      "name": "AudioBlast NeoBuds",
+      "price": "₹13,490",
+      "img": "https://m.media-amazon.com/images/I/61YeryfP6mL._SL1500_.jpg"
+    },
+    {
+      "id": 48,
+      "brand": "Boult",
+      "name": "Boult Audio Z40 Gaming ",
+      "price": "₹2,299",
+      "img": "https://m.media-amazon.com/images/I/61ly0k6DjfL._SL1500_.jpg"
+    },
+    
+    {
+      "id": 49,
+      "brand": "TuneElite",
+      "name": "TuneElite SonicPods",
+      "price": "₹1,099",
+      "img": "https://m.media-amazon.com/images/I/613FTOHA-BL._SL1500_.jpg"
+    },
+    {
+      "id": 50,
+      "brand": "TuneElite",
+      "name": "TuneElite Aero Buds",
+      "price": "₹1,599",
+      "img": "https://m.media-amazon.com/images/I/61xUny0zw5L._SL1496_.jpg"
+    },
+    {
+      "id": 51,
+      "brand": "TuneElite",
+      "name": "TuneElite Bass Blasters",
+      "price": "₹1,999",
+      "img": "img1"
+    },
+    {
+      "id": 52,
+      "brand": "BoomAudio",
+      "name": "BoomAudio XPods",
+      "price": "₹1,299",
+      "img": "img2"
+    },
+    {
+      "id": 53,
+      "brand": "BoomAudio",
+      "name": "BoomAudio AirBeats",
+      "price": "₹1,799",
+      "img": "img3"
+    },
+    {
+      "id": 54,
+      "brand": "BoomAudio",
+      "name": "BoomAudio ZenBuds",
+      "price": "₹2,299",
+      "img": "img4"
+    },
+    
+    {
+      "id": 55,
+      "brand": "RhythmX",
+      "name": "RhythmX True Bass",
+      "price": "₹1,499",
+      "img": "img5"
+    },
+    {
+      "id": 56,
+      "brand": "RhythmX",
+      "name": "RhythmX AirLite",
+      "price": "₹1,699",
+      "img": "img6"
+    },
+    {
+      "id": 57,
+      "brand": "RhythmX",
+      "name": "RhythmX Elite Pods",
+      "price": "₹2,099",
+      "img": "img7"
+    },
+    
+    {
+      "id": 58,
+      "brand": "SonicBeat",
+      "name": "SonicBeat Fusion",
+      "price": "₹1,299",
+      "img": "img8"
+    },
+    {
+      "id": 59,
+      "brand": "SonicBeat",
+      "name": "SonicBeat BoomPods",
+      "price": "₹1,899",
+      "img": "img9"
+    },
+    {
+      "id": 60,
+      "brand": "SonicBeat",
+      "name": "SonicBeat ProSound",
+      "price": "₹2,499",
+      "img": "img10"
     }
+    
+    
   ]
 }
