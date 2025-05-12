@@ -298,36 +298,6 @@ function AccessoriesPage() {
         <p>&copy; 2025 Mobile Store</p>
       </footer>
     </div>
-
-<div>
-<div className="mobile-cards" style={{ display: 'flex', flexWrap: 'wrap', gap: '20px' }}>
-  {accessories.map((item) => (
-    <div className="card" key={item.id} style={{ width: '250px', padding: '10px', border: '1px solid #ccc' }}>
-      <img
-        src={item.img.startsWith('http') ? item.img : localImages[item.img]}
-        alt={item.name}
-        style={{ width: "100%", height: "250px", objectFit: "contain" }}
-      />
-      <h3>{item.name}</h3>
-      <p>{item.brand}</p>
-      <p>{item.price}</p>
-      <button
-        className="btn btn-primary"
-        onClick={() => {
-          addToCart(item);
-          message.success(`${item.name} added to cart!`);
-        }}
-      >
-        Add to Cart
-      </button>
-    </div>
-  ))}
-</div>
-
-<footer className="footer" style={{ marginTop: '50px', textAlign: 'center' }}>
-  <p>&copy; 2025 Mobile Store</p>
-</footer>
-</div>
   );
 }
 
