@@ -22,7 +22,7 @@ const Home = () => {
 
   return (
     <div className="container my-5">
-              <Link to="/login">Login</Link> or <Link to="/register">Register</Link> to access the dashboard.
+              {/* <Link to="/login">Login</Link> or <Link to="/register">Register</Link> to access the dashboard. */}
 
         <Carousel>
          <Carousel.Item>

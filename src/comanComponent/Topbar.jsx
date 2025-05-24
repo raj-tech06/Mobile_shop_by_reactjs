@@ -72,17 +72,19 @@ const TopBar = () => {
             <FaRegHeart />
           </Link>
        
+          <Link to="/register" className="text-white mr-3">
+            <FaUserPlus />
+          </Link> 
+
           <Link to="/login" className="text-white mr-3" onClick={handleLogin}>
             Login<IoIosLogIn />
           </Link>
-          <Link to="/register" className="text-white mr-3">
-            <FaUserPlus />
-          </Link>
+
           <Link to="/" className="text-white">
 
-          <button onClick={handleLogout}>Logout</button>
+          <button onClick={handleLogout}>Logout</button><IoIosLogOut />
 
-            Logout <IoIosLogOut />
+          
           </Link>
         </div>
       </Container>

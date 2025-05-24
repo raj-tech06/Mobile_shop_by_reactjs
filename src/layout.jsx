@@ -14,7 +14,7 @@ const Layout=()=>{
         <NavBar />
         
 
-        <div className="App">
+        {/* <div className="App">
       <h1>Download My CV</h1>
       <a
         href="src/assets/epfoo.pdf"
@@ -24,7 +24,7 @@ const Layout=()=>{
         Download CV
       </a>
     </div>
-        
+         */}
         <Outlet />
 
     <footer className="bg-dark text-white py-5">
